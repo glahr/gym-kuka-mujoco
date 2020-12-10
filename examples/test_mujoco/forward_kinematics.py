@@ -41,7 +41,7 @@ sim.data.qpos[:] = np.array([np.pi/2,
                             -np.pi/4,
                              0.0])
 
-print(sim.data.qpos[:]s)
+print(sim.data.qpos[:])
 
 xpos, xrot = forwardKinSite(sim, 'peg_tip', recompute=True)
 xquat = mat2Quat(xrot)
